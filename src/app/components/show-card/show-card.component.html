@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;" [ngClass]="{'selected': isSelected}">
+  <img [src]="show.image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{show.title}}</h5>
+    <p class="card-price">Price: {{show.price}}</p> 
+    <p class="card-category">Category: {{show.category}}</p> 
+    <p class="card-rating">Rating: {{show.rating.rate}} ({{show.rating.count}} votes)</p> 
+    <button (click)="changeSelected()" href="#" class="btn btn-primary">{{isSelected ? "Deselect" : "Select"}}</button>
+  </div>
+</div>

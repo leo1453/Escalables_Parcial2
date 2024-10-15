@@ -1,0 +1,48 @@
+.container{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  .categories button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .categories button:hover {
+    background-color: #0056b3;
+  }
+
+  .category-filter {
+    margin-bottom: 20px;
+  }
+  
+  #categorySelect {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    border-bottom: 2px solid #2980b9; 
+    padding-bottom: 10px; 
+}
+  
+  

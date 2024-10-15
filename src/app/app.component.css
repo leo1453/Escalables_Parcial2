@@ -1,0 +1,29 @@
+.container{
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 250px;
+  height: 400px;
+  margin: 5px;
+}
+
+img{
+  height: 50%;
+}
+
+.sidenav{
+  width: 300px;
+}
+
+.sidenav a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+.menu-item-selected{
+  background-color: beige;
+}

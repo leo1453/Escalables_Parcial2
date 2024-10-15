@@ -1,0 +1,19 @@
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side">
+    <a type="button"  [routerLink]="['/tvshows']"   routerLinkActive="menu-item-selected" mat-button>
+      Products
+    </a>
+  </mat-drawer>
+
+  <div class="container">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Menu
+    </button>
+
+    <router-outlet></router-outlet>
+  
+
+  </div>
+
+</mat-drawer-container>

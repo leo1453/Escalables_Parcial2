@@ -1,0 +1,15 @@
+<div class="card">
+  <img [src]="show.image" alt="{{ show.title }}" class="card-img-top">
+  
+  <div class="card-body">
+      <h5 class="card-title">{{ show.title }}</h5>
+      <p class="card-price">Price: ${{ show.price }}</p>
+      <p class="card-category">Category: {{ show.category }}</p>
+      <p class="card-rating">Rating: {{ show.rating.rate }} ({{ show.rating.count }} votes)</p>
+    
+      <h6>Description:</h6>
+      <p class="card-description">{{ show.description }}</p>
+
+      <button class="btn btn-primary">Add to Cart</button>
+  </div>
+</div>
